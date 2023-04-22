@@ -16,16 +16,16 @@ class SignUpActivity : AppCompatActivity() {
     private lateinit var signUpPasswordEditText : EditText
     private lateinit var signUpButton : Button
     private lateinit var alreadyRegisteredButton : TextView
-/*
+
     private val auth = Firebase.auth
-*/
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_main)
         init()
-  //      listeners()
+       listeners()
     }
-/*
+
     private fun listeners() {
 
         signUpButton.setOnClickListener {
@@ -57,7 +57,7 @@ class SignUpActivity : AppCompatActivity() {
         startActivity(Intent(this,LoginActivity::class.java))
         finish()
     }
-*/
+
     private fun init(){
         signUpEmailEditText = findViewById(R.id.sUpEmailEditText)
         signUpPasswordEditText = findViewById(R.id.sUpPasswordEditText)

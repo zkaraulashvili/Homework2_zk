@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Homework2_zk"
         tools:targetApi="31">
         <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
             android:name=".Profile_Activity"
             android:exported="false" />
         <activity
