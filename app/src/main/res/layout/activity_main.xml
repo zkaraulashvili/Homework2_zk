@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/sUpEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your Email"
+        android:textSize="20sp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/sUpPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Password"
+        android:textSize="20sp">
+    </EditText>
+
+    <Button
+        android:id="@+id/sUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignUp">
+    </Button>
+
+    <TextView
+        android:id="@+id/aRegisteredButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Already registered? Log In"
+        android:textAlignment="textEnd">
+
+    </TextView>
+
+</LinearLayout>
